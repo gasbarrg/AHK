@@ -88,3 +88,15 @@ Numpad3:: ;judg
 O::ExitApp
 
 
+;bDim = 10 ; Change this to desired size.
+;xPos = % (A_ScreenWidth/2) - bDim
+;yPos = % (A_ScreenHeight/2) - bDim
+
+;Gui, -Caption Border AlwaysOnTop ToolWindow 
+;Gui, Color, C0C0C0
+;Gui, Show, NA W%bDim% H%bDim% X%xPos% Y%yPos%, hitBox
+
+;WinWait, hitBox
+;WinSet, TransColor, C0C0C0 255, hitBox
+
+
