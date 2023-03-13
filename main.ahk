@@ -81,5 +81,10 @@ Numpad2:: ;phant
     MinGunTime := 101
 Numpad3:: ;judg 
     MinGunTime := 300 ;fix 
+
+~LButton::Pause, On
+~LButton Up::Pause, Off 
 	
-Z::ExitApp
+O::ExitApp
+
+
